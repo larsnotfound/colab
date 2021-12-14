@@ -1,12 +1,28 @@
 <template>
   
-  <!-- Hero section -->
+  <!-- Body -->
   
     <div class="max-w-6xl mx-auto">
-        <div class="container mx-auto flex flex-col items-center py-14 pb-20 sm: p-10">
-            <h1 class="font-regular text-7xl leading-tight text-center mt-10 mb-5 dark:text-grayscale-white">We <span class="dark:text-brandprimary-lightpurple text-brandprimary-blue">collaborate </span>to boost your business IT power. </h1>
-            <span class="font-medium text-xl text-center dark:text-grayscale-white text-grayscale-darkgray pt-4">Urbanist Regular is used for all areas of body copy and smaller text. It’s the most effective of the font weights for legibility, and as such, is best used when trying to communicate information clearly and practically.</span>
-        </div>
+
+<!-- Hero section -->
+
+  <div class="bg-grayscale-white bg-no-repeat bg-right-bottom w-fit" style="background-image: url(images/logo-background.svg)">
+  <section class="container mx-auto px-10 sm:px-24 sm:pb-48 lg:px-52">
+    <div class="pt-24 flex">
+      <div class="">
+        <h3 class="text-4xl md:text-6xl font-medium text-left text-grayscale-darkestgray"> We <span class="font-extrabold text-brandprimary-purple">collaborate</span> to boost your business IT power.</h3>
+        <p class="mt-7 text-left text-grayscale-darkgray font-bold md:text-xl leading-snug tracking-wider">
+          Urbanist Regular is used for all areas of body copy and <br> smaller text. It’s the most effective of the font weights for <br> legibility, and as such, is best used when trying to <br> communicate information clearly and practically.
+        </p>
+        <div class="lg:flex lg:gap-2"></div>
+      </div>
+    </div>
+    <div class="pt-10">
+    <button class="py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">More info</button>
+    </div>
+  </section>
+
+</div>
 
 <!-- About -->
 
@@ -24,15 +40,33 @@
 
 <!-- Tegels -->
 
-        <div class="grid md:grid-cols-2 gap-6 mb-10 mt-10 sm:grid-cols-1 p-10">
+          
+<div class="grid md:grid-cols-2 gap-6 mb-10 mt-10 sm:grid-cols-1 p-10">
 
-          <div class="block rounded-lg bg-grayscale-darkestgray hover:animate-roll">
-            <div class="bg-gradient-to-r from-brandprimary-grey to-brandprimary-darkestgrey">
-            <img class="bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
-            <span class="sticky text-4xl font-bold text-grayscale-white pl-10">Students</span>
-            <button class="bg-brandprimary-lightpurple hover:bg-brandprimary-purple w-full p-3 mt-2 text-grayscale-white text-right pr-10">Meer info</button>
+  <router-link to="/aboutus" class="link">
+        <div class="bg-grayscale-darkestgray relative rounded-lg">    
+            <span class="absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Students</span>
+                  
+              <div class="opacity-100">
+                   <img class="bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
+              </div>
+                  <button class="bg-brandprimary-lightpurple hover:bg-brandprimary-purple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info     
+                  </button>
         </div>
-          </div>
+  </router-link>
+
+  <router-link to="/aboutus" class="link">
+        <div class="bg-grayscale-darkestgray relative rounded-lg">    
+            <span class="absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Students</span>
+                  
+              <div class="opacity-100">
+                   <img class="bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
+              </div>
+                  <button class="bg-brandprimary-lightpurple hover:bg-brandprimary-purple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info     
+                  </button>
+        </div>
+  </router-link>
+
 </div>
 
 <!-- Subtitle-->
@@ -42,9 +76,9 @@
     <div class="pb-20 flex justify-center">
 
       <div class="">
-        <p class="mt-7 text-left text-gray-400 dark:text-grayscale-lightgray font-medium text-3xl md:text-xl leading-snug tracking-wider">Process</p>
-        <h3 class="text-3xl md:text-6xl font-medium text-left text-gray-800 dark:text-grayscale-white">
-        <span class="font-extrabold text-purple-600">Workflow</span> to make the next IT step for your company.</h3>
+        <p class="mt-7 text-left text-gray-400 dark:text-grayscale-lightgray font-bold text-3xl md:text-xl leading-snug tracking-wider">Process</p>
+        <h3 class="text-3xl md:text-6xl font-300 text-left text-gray-800 dark:text-grayscale-white">
+        <span class="font-bold text-purple-600">Workflow</span> to make the next IT step for your company.</h3>
         <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
       </div>
     </div>

@@ -6,13 +6,13 @@
 
 <!-- Hero section -->
 
-  <div class="bg-grayscale-white bg-no-repeat bg-right-bottom w-fit" style="background-image: url(images/logo-background.svg)">
-  <section class="container mx-auto px-10 sm:px-24 sm:pb-48 lg:px-52">
-    <div class="pt-24 flex">
+  <div class="pt-40 bg-no-repeat bg-right-bottom" style="background-image: url(images/logo-background.svg)">
+  <section class="p-10">
+    <div class="pt- flex">
       <div class="">
-        <h3 class="text-4xl md:text-6xl font-medium text-left text-grayscale-darkestgray"> We <span class="font-extrabold text-brandprimary-purple">collaborate</span> to boost your business IT power.</h3>
-        <p class="mt-7 text-left text-grayscale-darkgray font-bold md:text-xl leading-snug tracking-wider">
-          Urbanist Regular is used for all areas of body copy and <br> smaller text. It’s the most effective of the font weights for <br> legibility, and as such, is best used when trying to <br> communicate information clearly and practically.
+        <h3 class="text-4xl md:text-7xl font-bold text-left text-grayscale-darkestgray">Houdt <span class="font-extrabold text-brandprimary-purple">IT-talent</span> in de regio voor ontwikkeling van Drenthe.</h3>
+        <p class="mt-5 text-left text-grayscale-darkgray font-regular md:text-xl">
+          Urbanist Regular is used for all areas of body copy and smaller text. It’s the most effective of the font weights for legibility, and as such, is best used when trying to communicate information clearly and practically.
         </p>
         <div class="lg:flex lg:gap-2"></div>
       </div>
@@ -41,33 +41,81 @@
 <!-- Tegels -->
 
           
-<div class="grid md:grid-cols-2 gap-6 mb-10 mt-10 sm:grid-cols-1 p-10">
+<div class="grid md:grid-cols-2 gap-6 mb-40 mt-10 sm:grid-cols-1 p-10">
 
   <router-link to="/aboutus" class="link">
-        <div class="bg-grayscale-darkestgray relative rounded-lg">    
-            <span class="absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Students</span>
-                  
-              <div class="opacity-100">
-                   <img class="bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
-              </div>
-                  <button class="bg-brandprimary-lightpurple hover:bg-brandprimary-purple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info     
-                  </button>
-        </div>
+        <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
+          <div>
+            <span class="z-10 absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Students</span>
+          </div>
+            <div>
+              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
+            </div>
+              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+          </div>
   </router-link>
 
+  
   <router-link to="/aboutus" class="link">
-        <div class="bg-grayscale-darkestgray relative rounded-lg">    
-            <span class="absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Students</span>
-                  
-              <div class="opacity-100">
-                   <img class="bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
-              </div>
-                  <button class="bg-brandprimary-lightpurple hover:bg-brandprimary-purple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info     
-                  </button>
-        </div>
+      <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray"><div>
+        
+            <span class="z-10 absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Partners</span>
+          </div>
+            <div>
+              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/partners.png" alt="colab">  
+            </div>
+              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+          </div>
   </router-link>
 
 </div>
+
+<!-- Structured -->
+
+<div class="grid md:grid-cols-2 gap-6 mb-40 mt-10 sm:grid-cols-1 p-10">
+
+  <router-link to="/aboutus" class="link">
+    <div class="flex flex-col rounded-lg min-h-max overflow-hidden bg-grayscale-darkestgray">
+      <img class="bg-cover z-0" src="../assets/partners.png">
+      <div class="overflow-hidden rounded-lg group aspect-w-2 aspect-h-1 sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
+        <div
+        aria-hidden="true"
+        class="opacity-50 bg-gradient-to-b from-transparent to-grayscale-darkestgray"
+        ></div>
+        <div class="items-end p-6 flex">
+          <div>
+            <h3 class="font-semibold text-grayscale-white text-4xl">Studenten</h3>
+            </div>
+      </div>
+         <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+      </div>
+    </div>
+  </router-link>
+</div>
+
+    
+
+<!-- Evenementen-->
+
+<h3 class="text-4xl font-black text-center text-grayscale-darkestgray">Evenementen</h3>
+
+<div class="grid md:grid-cols-3 gap-6 mb-20 mt-20 sm:grid-cols-1 pb-20 p-10">
+
+  <router-link to="/aboutus" class="link">
+        <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
+          <div>
+            <span class="z-10 absolute bottom-28 pl-10 text-4xl font-bold text-grayscale-white">Blockchain</span>
+            <span class="z-10 absolute bottom-14 pl-10 text-xl text-grayscale-white">28 december 2021<br>Colab block 2</span>
+          </div>
+            <div>
+              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
+            </div>
+              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+          </div>
+  </router-link>
+  
+</div>
+
 
 <!-- Subtitle-->
 
@@ -78,14 +126,14 @@
       <div class="">
         <p class="mt-7 text-left text-gray-400 dark:text-grayscale-lightgray font-bold text-3xl md:text-xl leading-snug tracking-wider">Process</p>
         <h3 class="text-3xl md:text-6xl font-300 text-left text-gray-800 dark:text-grayscale-white">
-        <span class="font-bold text-purple-600">Workflow</span> to make the next IT step for your company.</h3>
+        <span class="font-bold text-brandprimary-purple">Workflow</span> to make the next IT step for your company.</h3>
         <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
       </div>
     </div>
   </section>
 
-<!-- Logo grid -->
 
+<!-- Logo grid -->
 
 <div class="container mx-auto px-10 sm:px-24 lg:px-52 mb-10">    
   <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">      

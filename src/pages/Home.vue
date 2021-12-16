@@ -3,22 +3,21 @@
   <!-- Body -->
   
   <div class="w-full bg-grayscale-lightgray z-0">
-  <div class="max-w-6xl mx-auto">
+  <div class="max-w-7xl mx-auto z-1">
 
 <!-- Hero section -->
 
-<main class="h-full flex items-center">
+<main class="h-full flex items-center md:p-20">
   <section class="p-10 mb-20">
     <div class="flex order-2">
       <div class="">
-        <h3 class="text-6xl md:text-7xl leading-snug font-bold text-left text-grayscale-darkestgray pt-20">Houdt <span class="font-extrabold text-brandprimary-purple">IT-talent</span> in de regio voor ontwikkeling van Drenthe.</h3>
-        <p class="mt-7 text-left text-grayscale-darkgray font-regular md:text-xl">
-          Urbanist Regular is used for all areas of body copy and smaller text. It’s the most effective of the font weights for legibility, and as such, is best used when trying to communicate information clearly and practically.
-        </p>
+        <h3 class="text-6xl md:text-7xl font-bold text-left text-grayscale-darkestgray pt-20">Houdt <span class="font-extrabold text-brandprimary-purple">IT-talent</span> in de regio voor ontwikkeling van Drenthe.</h3>
+        <p class="mt-7 mb-7 text-left text-grayscale-darkgray font-regular md:text-xl">
+          Tijdens de digitale transitie ondersteunen we onderwijs en bedrijf met de uitdagingen die daarbij komen kijken en zoeken we naar nieuwe technologieën         </p>
         <div class="lg:flex lg:gap-2"></div>
       </div>
     </div>
-    <button class="py-3 px-10 mt-7 rounded-lg hover:bg-grayscale-lightgray hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">More info</button>
+   <router-link to="/aboutus" class="py-3 px-10 mt-10 rounded-lg hover:bg-grayscale-lightgray hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Lees meer</router-link>
   </section>
 </main>
 </div>
@@ -30,9 +29,9 @@
 
 <div class="mt-40 mb-40 grid md:grid-cols-2 gap-20 p-10">
     <div class="self-center">
-      <div class="text-4xl font-black dark:text-grayscale-white">‘Go to workplaces for you.</div>
-        <div class="text-lg mt-4 text-grayscale-darkgray dark:text-grayscale-white">The work landscape has experienced a permanent shift on a global scale. Consequently, many organizations are struggling to understand the steps required to bring employees into a hybrid environment in a structured way.</div>
-    <button class="mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">More info</button>
+      <div class="text-4xl font-black dark:text-grayscale-white">Werkruimtes, speciaal voor jou.</div>
+        <div class="text-lg mt-4 text-grayscale-darkgray dark:text-grayscale-white">Bekijk een volledig overzicht van beschikbare ruimtes die passen bij jouw type activiteit.</div>
+    <button class="mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Lees meer</button>
 </div>
 
 <div class="inline-block">
@@ -141,8 +140,7 @@
     <div class="pb-20 flex justify-center">
 
       <div class="">
-        <p class="mt-7 text-left text-grayscale-darkgray dark:text-grayscale-lightgray font-bold text-3xl md:text-xl leading-snug tracking-wider">Process</p>
-        <h3 class="text-6xl md:text-6xl leading-snug font-bold text-left text-grayscale-darkestgray">Onze <span class="font-extrabold text-brandprimary-purple">samenwerkingen</span> en andere dingen.</h3>
+        <h3 class="text-6xl md:text-6xl leading-snug font-bold text-left text-grayscale-darkestgray">Wij <span class="font-extrabold text-brandprimary-purple">colabben</span> met:</h3>
         <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
       </div>
     </div>
@@ -155,23 +153,23 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 m-auto pb-20 filter grayscale hover:grayscale-0">
     
     <div class="">  
-      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/NHL.png" alt="logo">  
+      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/NHL.png" alt="logo">  
     </div>
 
     <div class="">  
-      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/Rovecom.png" alt="logo-tvm">  
+      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/Rovecom.png" alt="logo-tvm">  
     </div>
 
     <div class="">  
-      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/Unigarant.png" alt="logo-tvm">  
+      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/Unigarant.png" alt="logo-tvm">  
     </div>
 
     <div class="">  
-      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/UWV.png" alt="logo-tvm">  
+      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/UWV.png" alt="logo-tvm">  
     </div>
 
         <div class="">  
-      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/TVM.png" alt="logo-tvm">  
+      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/TVM.png" alt="logo-tvm">  
     </div>
 
    </div>  

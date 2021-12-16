@@ -14,3 +14,12 @@
         </nav>
     </div>
 </template>
+
+
+<style>
+
+.router-link-active {
+  border-bottom: 2px solid #8B1AF9;
+    }
+
+</style>

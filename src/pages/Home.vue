@@ -2,29 +2,31 @@
   
   <!-- Body -->
   
-    <div class="max-w-6xl mx-auto">
+  <div class="w-full bg-grayscale-lightgray z-0">
+  <div class="max-w-6xl mx-auto">
 
 <!-- Hero section -->
 
-  <div class="pt-40 bg-no-repeat bg-right-bottom" style="background-image: url(images/logo-background.svg)">
-  <section class="p-10">
-    <div class="pt- flex">
+<main class="h-full flex items-center">
+  <section class="p-10 mb-20">
+    <div class="flex order-2">
       <div class="">
-        <h3 class="text-4xl md:text-7xl font-bold text-left text-grayscale-darkestgray">Houdt <span class="font-extrabold text-brandprimary-purple">IT-talent</span> in de regio voor ontwikkeling van Drenthe.</h3>
-        <p class="mt-5 text-left text-grayscale-darkgray font-regular md:text-xl">
+        <h3 class="text-6xl md:text-7xl leading-snug font-bold text-left text-grayscale-darkestgray pt-20">Houdt <span class="font-extrabold text-brandprimary-purple">IT-talent</span> in de regio voor ontwikkeling van Drenthe.</h3>
+        <p class="mt-7 text-left text-grayscale-darkgray font-regular md:text-xl">
           Urbanist Regular is used for all areas of body copy and smaller text. It’s the most effective of the font weights for legibility, and as such, is best used when trying to communicate information clearly and practically.
         </p>
         <div class="lg:flex lg:gap-2"></div>
       </div>
     </div>
-    <div class="pt-10">
-    <button class="py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">More info</button>
-    </div>
+    <button class="py-3 px-10 mt-7 rounded-lg hover:bg-grayscale-lightgray hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">More info</button>
   </section>
-
+</main>
+</div>
 </div>
 
 <!-- About -->
+
+ <div class="max-w-6xl mx-auto">
 
 <div class="mt-40 mb-40 grid md:grid-cols-2 gap-20 p-10">
     <div class="self-center">
@@ -40,8 +42,10 @@
 
 <!-- Tegels -->
 
-          
-<div class="grid md:grid-cols-2 gap-6 mb-40 mt-10 sm:grid-cols-1 p-10">
+<h3 class="text-4xl font-black text-left pl-10 text-grayscale-darkestgray">Community</h3>
+
+ <!--          
+<div class="grid md:grid-cols-2 gap-6 mb-40 mt-0 sm:grid-cols-1 p-10">
 
   <router-link to="/aboutus" class="link">
         <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
@@ -69,10 +73,11 @@
   </router-link>
 
 </div>
+-->
 
 <!-- Structured -->
 
-<div class="grid md:grid-cols-2 gap-6 mb-40 mt-10 sm:grid-cols-1 p-10">
+<div class="grid md:grid-cols-2 gap-6 mb-40 sm:grid-cols-1 p-10">
 
   <router-link to="/aboutus" class="link">
     <div class="flex flex-col rounded-lg min-h-max overflow-hidden bg-grayscale-darkestgray">
@@ -80,7 +85,7 @@
       <div class="overflow-hidden rounded-lg group aspect-w-2 aspect-h-1 sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
         <div
         aria-hidden="true"
-        class="opacity-50 bg-gradient-to-b from-transparent to-grayscale-darkestgray"
+        class="opacity-50 z-20 bg-gradient-to-b from-transparent to-grayscale-darkestgray"
         ></div>
         <div class="items-end p-6 flex">
           <div>
@@ -91,17 +96,29 @@
       </div>
     </div>
   </router-link>
-</div>
 
-    
+</div>
 
 <!-- Evenementen-->
 
-<h3 class="text-4xl font-black text-center text-grayscale-darkestgray">Evenementen</h3>
+<h3 class="text-4xl font-black text-left pl-10 text-grayscale-darkestgray">Evenementen</h3>
 
-<div class="grid md:grid-cols-3 gap-6 mb-20 mt-20 sm:grid-cols-1 pb-20 p-10">
+<div class="grid md:grid-cols-3 gap-6 mb-20 sm:grid-cols-1 pb-20 p-10">
 
   <router-link to="/aboutus" class="link">
+        <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
+          <div>
+            <span class="z-10 absolute bottom-28 pl-10 text-4xl font-bold text-grayscale-white">Blockchain</span>
+            <span class="z-10 absolute bottom-14 pl-10 text-xl text-grayscale-white">28 december 2021<br>Colab block 2</span>
+          </div>
+            <div>
+              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
+            </div>
+              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+          </div>
+  </router-link>
+
+    <router-link to="/aboutus" class="link">
         <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
           <div>
             <span class="z-10 absolute bottom-28 pl-10 text-4xl font-bold text-grayscale-white">Blockchain</span>
@@ -124,9 +141,8 @@
     <div class="pb-20 flex justify-center">
 
       <div class="">
-        <p class="mt-7 text-left text-gray-400 dark:text-grayscale-lightgray font-bold text-3xl md:text-xl leading-snug tracking-wider">Process</p>
-        <h3 class="text-3xl md:text-6xl font-300 text-left text-gray-800 dark:text-grayscale-white">
-        <span class="font-bold text-brandprimary-purple">Workflow</span> to make the next IT step for your company.</h3>
+        <p class="mt-7 text-left text-grayscale-darkgray dark:text-grayscale-lightgray font-bold text-3xl md:text-xl leading-snug tracking-wider">Process</p>
+        <h3 class="text-6xl md:text-6xl leading-snug font-bold text-left text-grayscale-darkestgray">Onze <span class="font-extrabold text-brandprimary-purple">samenwerkingen</span> en andere dingen.</h3>
         <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
       </div>
     </div>
@@ -135,25 +151,31 @@
 
 <!-- Logo grid -->
 
-<div class="container mx-auto px-10 sm:px-24 lg:px-52 mb-10">    
-  <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">      
+   <div class="flex items-center justify-center">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 m-auto pb-20 filter grayscale hover:grayscale-0">
+    
+    <div class="">  
+      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/NHL.png" alt="logo">  
+    </div>
 
-    <div class="flex justify-center p-1 bg-gray-100">
-      <img class="h-24" src="../assets/placeholder.png" alt="logo-tvm">
-      </div>      
-    <div class="flex justify-center p-1 bg-gray-100">
-      <img class="h-24" src="images/logo-unigarant.png" alt="logo-unigarant">
-      </div>
+    <div class="">  
+      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/Rovecom.png" alt="logo-tvm">  
+    </div>
 
-    <div class="flex justify-center p-1 bg-gray-100">
-      <img class="h-24" src="images/logo-rovecom.png" alt="logo-rovecom">
-      </div> 
-   
-    <div class="flex justify-center p-1 bg-gray-100">
-      <img class="h-24" src="images/logo-uwv.png" alt="logo-uwv"></div>    
+    <div class="">  
+      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/Unigarant.png" alt="logo-tvm">  
+    </div>
+
+    <div class="">  
+      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/UWV.png" alt="logo-tvm">  
+    </div>
+
+        <div class="">  
+      <img class="h-32 p-4 bg-grayscale-lightgray rounded" src="../assets/TVM.png" alt="logo-tvm">  
+    </div>
+
    </div>  
 </div>
 
-
-    </div>
+</div>
 </template>  

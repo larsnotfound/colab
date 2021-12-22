@@ -18,6 +18,11 @@ const routes = [
 const router = new createRouter({
     history: createWebHistory(),
     routes,
+    scrollBehavior() {
+        window.scrollTo(0,0);
+      }
 })
 
+
 export default router
+

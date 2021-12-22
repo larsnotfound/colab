@@ -11,8 +11,9 @@ module.exports = {
     colors: {
       brandprimary: {
         blue: '#0000FF',
+        lightblue: '#0E0662',
         purple: '#8B1AF9',
-        lightpurple: '#B884FF'
+        lightpurple: '#B884FF',
       },
       grayscale: {
         white: '#FFFFFF',

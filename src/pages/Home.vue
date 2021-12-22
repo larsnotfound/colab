@@ -153,23 +153,23 @@
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 m-auto pb-20 filter grayscale hover:grayscale-0">
     
     <div class="">  
-      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/NHL.png" alt="logo">  
+      <img class="h-48 p-4 bg-grayscale-lightgray rounded" src="../assets/NHL.png" alt="logo">  
     </div>
 
     <div class="">  
-      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/Rovecom.png" alt="logo-tvm">  
+      <img class="h-48 p-4 bg-grayscale-lightgray rounded" src="../assets/Rovecom.png" alt="logo-tvm">  
     </div>
 
     <div class="">  
-      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/Unigarant.png" alt="logo-tvm">  
+      <img class="h-48 p-4 bg-grayscale-lightgray rounded" src="../assets/Unigarant.png" alt="logo-tvm">  
     </div>
 
     <div class="">  
-      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/UWV.png" alt="logo-tvm">  
+      <img class="h-48 p-4 bg-grayscale-lightgray rounded" src="../assets/UWV.png" alt="logo-tvm">  
     </div>
 
         <div class="">  
-      <img class="h-44 p-4 bg-grayscale-lightgray rounded" src="../assets/TVM.png" alt="logo-tvm">  
+      <img class="h-48 p-4 bg-grayscale-lightgray rounded" src="../assets/TVM.png" alt="logo-tvm">  
     </div>
 
    </div>  

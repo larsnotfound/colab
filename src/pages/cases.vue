@@ -1,5 +1,14 @@
 <template>
-  <div class="font-bold text-grey-600 text-5xl m-10 leading-tight dark:text-white">Cases</div>
+    <div class="w-full bg-brandprimary-purple">
+    
+    <div class="md:p-40 p-10 block max-w-screen-xl">
+        <p class="mt-7 pb-2 text-left text-grayscale-white dark:text-grayscale-lightgray font-bold text-xl md:text-xl leading-snug tracking-wider">Spaces</p>
+        <h3 class="text-6xl md:text-7xl leading-snug text-left text-grayscale-white font-normal">Reserveer hier <span class="font-bold text-grayscale-white">jouw</span> kantoor of bedrijfsruimte.</h3>
+        <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
+      </div>
+
+  </div>
+
 
 
   

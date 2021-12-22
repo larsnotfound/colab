@@ -9,17 +9,21 @@
 
   </div>
 
+<div data-aos="fade-up">
 <div class="max-w-7xl mx-auto">
 <div class="mt-40 mb-40 grid md:grid-cols-2 gap-20 p-10">
     <div class="self-center">
-      <div class="text-4xl font-black dark:text-grayscale-white">‘Go to workplaces for you.</div>
-        <div class="text-lg mt-4 text-grayscale-darkgray dark:text-grayscale-white">The work landscape has experienced a permanent shift on a global scale. Consequently, many organizations are struggling to understand the steps required to bring employees into a hybrid environment in a structured way.</div>
+      <div class="text-4xl font-black dark:text-grayscale-white">Binnenkort</div>
+        <div class="text-lg mt-4 text-grayscale-darkgray dark:text-grayscale-white">
+          Colab organiseert samen met partners regelmatig webinars, workshops en andere activiteiten om elkaar naar een hoger niveau te tillen in de digitale transitie. Wil je meer informatie ontvangen zodra er nieuwe evenementen worden aangekondigd? Meld je dan aan voor de nieuwsbrief.
+        </div>
     <button class="mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">More info</button>
 </div>
 
 <div class="inline-block">
       <img class="bg-cover bg-center rounded-md" src="../assets/aboutimg.png" alt="colab">
     </div>
+</div>
 </div>
 </div>
 

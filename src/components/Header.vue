@@ -6,10 +6,11 @@
 
         <nav class="align-right">
             <ul>
-                <router-link to="/aboutus" class="block md:inline-block px-5 py-3 no-underline text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">About us</router-link>
-                <router-link to="/cases" class="block md:inline-block px-5 py-3 no-underline text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Cases</router-link>
-                <router-link to="/location" class="block md:inline-block px-5 py-3 no-underline text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Location</router-link>
-                <router-link to="/contact" class="block md:inline-block px-5 py-3 no-underline text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Contact</router-link>
+                <router-link to="/about" class="block md:inline-block px-5 py-3 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">About</router-link>
+                <router-link to="/spaces" class="block md:inline-block px-5 py-3 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Spaces</router-link>
+                <router-link to="/events" class="block md:inline-block px-5 py-3 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Events</router-link>
+                <router-link to="/focusarea" class="block md:inline-block px-5 py-3 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Focus areas</router-link>
+                <router-link to="/contact" class="block md:inline-block px-5 py-3 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Contact</router-link>
             </ul>
         </nav>
     </div>

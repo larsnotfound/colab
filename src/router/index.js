@@ -1,15 +1,17 @@
 import { createWebHistory, createRouter } from "vue-router";
 import home from '../pages/Home.vue'
-import aboutus from '../pages/aboutus.vue'
-import cases from '../pages/cases.vue'
-import location from '../pages/location.vue'
+import about from '../pages/about.vue'
+import spaces from '../pages/spaces.vue'
+import events from '../pages/events.vue'
+import focusarea from '../pages/focusarea.vue'
 import contact from '../pages/contact.vue'
 
 const routes = [
     { path: '/', name: 'home', component: home },
-    { path: '/aboutus', name: 'aboutus', component: aboutus },
-    { path: '/cases', name: 'cases', component: cases },
-    { path: '/location', name: 'location', component: location },
+    { path: '/about', name: 'about', component: about },
+    { path: '/spaces', name: 'spaces', component: spaces },
+    { path: '/events', name: 'events', component: events },
+    { path: '/focusarea', name: 'focusarea', component: focusarea },
     { path: '/contact', name: 'contact', component: contact },
 ]
 

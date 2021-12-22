@@ -17,7 +17,7 @@
         <div class="lg:flex lg:gap-2"></div>
       </div>
     </div>
-   <router-link to="/aboutus" class="py-3 px-10 mt-10 rounded-lg hover:bg-grayscale-lightgray hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Lees meer</router-link>
+   <router-link to="/about" class="py-3 px-10 mt-10 rounded-lg hover:bg-grayscale-lightgray hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Lees meer</router-link>
   </section>
 </main>
 </div>
@@ -43,60 +43,48 @@
 
 <h3 class="text-4xl font-black text-left pl-10 text-grayscale-darkestgray">Community</h3>
 
- <!--          
-<div class="grid md:grid-cols-2 gap-6 mb-40 mt-0 sm:grid-cols-1 p-10">
-
-  <router-link to="/aboutus" class="link">
-        <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
-          <div>
-            <span class="z-10 absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Students</span>
-          </div>
-            <div>
-              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
-            </div>
-              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
-          </div>
-  </router-link>
-
-  
-  <router-link to="/aboutus" class="link">
-      <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray"><div>
-        
-            <span class="z-10 absolute bottom-20 pl-10 text-4xl font-bold text-grayscale-white">Partners</span>
-          </div>
-            <div>
-              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/partners.png" alt="colab">  
-            </div>
-              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
-          </div>
-  </router-link>
-
-</div>
--->
-
-<!-- Structured -->
-
 <div class="grid md:grid-cols-2 gap-6 mb-40 sm:grid-cols-1 p-10">
 
-  <router-link to="/aboutus" class="link">
-    <div class="flex flex-col rounded-lg min-h-max overflow-hidden bg-grayscale-darkestgray">
-      <img class="bg-cover z-0" src="../assets/partners.png">
-      <div class="overflow-hidden rounded-lg group aspect-w-2 aspect-h-1 sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
-        <div
-        aria-hidden="true"
-        class="opacity-50 z-20 bg-gradient-to-b from-transparent to-grayscale-darkestgray"
-        ></div>
-        <div class="items-end p-6 flex">
-          <div>
-            <h3 class="font-semibold text-grayscale-white text-4xl">Studenten</h3>
-            </div>
+<!-- Studenten -->
+
+<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="h-full w-full">
+    <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+      <h3 class="font-bold text-4xl p-6">Bedrijven</h3>
+      <router-link to="/about" class="link">
+      <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+        </router-link>
+      <div class="inline-flex items-center">
       </div>
-         <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+      <div class="flex flex-row justify-between">
+        <div class="flex flex-row">
+        </div>
       </div>
     </div>
-  </router-link>
+  </div>
+</div>
+
+<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="h-full w-full">
+    <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+      <h3 class="font-bold text-4xl p-6">Studenten</h3>
+      <router-link to="/about" class="link">
+      <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+        </router-link>
+      <div class="inline-flex items-center">
+      </div>
+      <div class="flex flex-row justify-between">
+        <div class="flex flex-row">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
+
+<!-- Bedrijven -->
+
 
 <!-- Evenementen-->
 
@@ -104,32 +92,65 @@
 
 <div class="grid md:grid-cols-3 gap-6 mb-20 sm:grid-cols-1 pb-20 p-10">
 
-  <router-link to="/aboutus" class="link">
-        <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
-          <div>
-            <span class="z-10 absolute bottom-28 pl-10 text-4xl font-bold text-grayscale-white">Blockchain</span>
-            <span class="z-10 absolute bottom-14 pl-10 text-xl text-grayscale-white">28 december 2021<br>Colab block 2</span>
-          </div>
-            <div>
-              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
-            </div>
-              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
-          </div>
-  </router-link>
+<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="h-full w-full">
+    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+      <h3 class="font-bold text-4xl pl-6">Studenten</h3>
+      <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
+      <span>Colab block-2</span></p>
+      <router-link to="/about" class="link">
+      <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+        </router-link>
+      <div class="inline-flex items-center">
+      </div>
+      <div class="flex flex-row justify-between">
+        <div class="flex flex-row">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <router-link to="/aboutus" class="link">
-        <div class="relative rounded-lg bg-gradient-to-t from-grayscale-darkestgray">    
-          <div>
-            <span class="z-10 absolute bottom-28 pl-10 text-4xl font-bold text-grayscale-white">Blockchain</span>
-            <span class="z-10 absolute bottom-14 pl-10 text-xl text-grayscale-white">28 december 2021<br>Colab block 2</span>
-          </div>
-            <div>
-              <img class="bg-gradient-to-b from-grayscale-darkestgray to-grayscale-white object-cover mix-blend-multiply bg-cover bg-center rounded-md" src="../assets/tegelimg.png" alt="colab">  
-            </div>
-              <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
-          </div>
-  </router-link>
-  
+<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="h-full w-full">
+    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+      <h3 class="font-bold text-4xl pl-6">Studenten</h3>
+      <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
+      <span>Colab block-2</span></p>
+      <router-link to="/about" class="link">
+      <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+        </router-link>
+      <div class="inline-flex items-center">
+      </div>
+      <div class="flex flex-row justify-between">
+        <div class="flex flex-row">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+  <div class="h-full w-full">
+    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+      <h3 class="font-bold text-4xl pl-6">Studenten</h3>
+      <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
+      <span>Colab block-2</span></p>
+      <router-link to="/about" class="link">
+      <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
+        </router-link>
+      <div class="inline-flex items-center">
+      </div>
+      <div class="flex flex-row justify-between">
+        <div class="flex flex-row">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 </div>
 
 

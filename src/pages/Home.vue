@@ -31,7 +31,9 @@
     <div class="self-center">
       <div class="text-4xl font-black dark:text-grayscale-white">Werkruimtes, speciaal voor jou.</div>
         <div class="text-lg mt-4 text-grayscale-darkgray dark:text-grayscale-white">Bekijk een volledig overzicht van beschikbare ruimtes die passen bij jouw type activiteit.</div>
+     <router-link to="/spaces">
     <button class="mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple dark:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Lees meer</button>
+     </router-link>
 </div>
 
 <div class="inline-block">
@@ -49,7 +51,7 @@
 
 <div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
-    <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+    <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-black text-grayscale-white">
       <h3 class="font-bold text-4xl p-6">Partners</h3>
       <router-link to="/about" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
@@ -64,9 +66,12 @@
   </div>
 </div>
 
+
+<!-- Bedrijven -->
+
 <div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
-    <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
+    <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-black text-grayscale-white">
       <h3 class="font-bold text-4xl p-6">Studenten</h3>
       <router-link to="/about" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
@@ -83,8 +88,6 @@
 
 </div>
 
-<!-- Bedrijven -->
-
 
 <!-- Evenementen-->
 
@@ -94,11 +97,11 @@
 
 <div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
-    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
-      <h3 class="font-bold text-4xl pl-6">Studenten</h3>
+    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-black text-grayscale-white">
+      <h3 class="font-bold text-3xl pl-6">Systeembeheer</h3>
       <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
       <span>Colab block-2</span></p>
-      <router-link to="/about" class="link">
+      <router-link to="/events" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
         </router-link>
       <div class="inline-flex items-center">
@@ -113,11 +116,11 @@
 
 <div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
-    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
-      <h3 class="font-bold text-4xl pl-6">Studenten</h3>
+    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-black text-grayscale-white">
+      <h3 class="font-bold text-3xl pl-6">Systeembeheer</h3>
       <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
       <span>Colab block-2</span></p>
-      <router-link to="/about" class="link">
+      <router-link to="/events" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
         </router-link>
       <div class="inline-flex items-center">
@@ -132,11 +135,11 @@
 
 <div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
-    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-darkestgray text-grayscale-white">
-      <h3 class="font-bold text-4xl pl-6">Studenten</h3>
+    <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-black text-grayscale-white">
+      <h3 class="font-bold text-3xl pl-6">Systeembeheer</h3>
       <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
       <span>Colab block-2</span></p>
-      <router-link to="/about" class="link">
+      <router-link to="/events" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
         </router-link>
       <div class="inline-flex items-center">
@@ -171,7 +174,7 @@
 <!-- Logo grid -->
 
    <div class="flex items-center justify-center">
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 m-auto pb-20">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 m-auto pb-20 filter grayscale">
     
     <div class=""> 
       <img class="h-48 p-4 bg-grayscale-lightgray dark:bg-brandprimary-lightblue rounded" src="../assets/NHL.png" alt="logo"> 

@@ -17,6 +17,7 @@ module.exports = {
       },
       grayscale: {
         white: '#FFFFFF',
+        black: '#000000',
         lightgray: '#f9f9f9',
         gray: '#B8B8B8',
         darkgray: '#575757',

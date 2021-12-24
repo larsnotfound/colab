@@ -2,7 +2,9 @@
   
   <!-- Body -->
   
-  <div class="w-full bg-grayscale-lightgray dark:bg-brandprimary-lightblue z-0">
+      <div class="" style="background-image:url('https://svgshare.com/i/d1Y.svg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div class="w-full bg-grayscale-lightgray dark:bg-brandprimary-lightblue z-0">
+      </div>
   <div class="max-w-7xl mx-auto z-1">
 
 <!-- Hero section -->
@@ -49,10 +51,10 @@
 
 <!-- Studenten -->
 
-<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1570616969692-54d6ba3d0397?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2022&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
     <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-black text-grayscale-white">
-      <h3 class="font-bold text-4xl p-6">Partners</h3>
+      <h3 class="font-bold text-4xl p-6">Onderwijs</h3>
       <router-link to="/about" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
         </router-link>
@@ -69,10 +71,10 @@
 
 <!-- Bedrijven -->
 
-<div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
     <div class="rounded-lg flex flex-col w-full pt-80 bg-gradient-to-t from-grayscale-black text-grayscale-white">
-      <h3 class="font-bold text-4xl p-6">Studenten</h3>
+      <h3 class="font-bold text-4xl p-6">Bedrijven</h3>
       <router-link to="/about" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
         </router-link>
@@ -95,11 +97,11 @@
 
 <div class="grid md:grid-cols-3 gap-6 mb-20 sm:grid-cols-1 pb-20 p-10">
 
-<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1523191504937-f00111b11d8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
     <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-black text-grayscale-white">
-      <h3 class="font-bold text-3xl pl-6">Systeembeheer</h3>
-      <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
+      <h3 class="font-bold text-3xl pl-6">Cybersecurity</h3>
+      <p class="font-normal text-xl pl-6 p-3">12 januari 2022<br>
       <span>Colab block-2</span></p>
       <router-link to="/events" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
@@ -114,11 +116,11 @@
   </div>
 </div>
 
-<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
     <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-black text-grayscale-white">
-      <h3 class="font-bold text-3xl pl-6">Systeembeheer</h3>
-      <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
+      <h3 class="font-bold text-3xl pl-6">AI starters cursus</h3>
+      <p class="font-normal text-xl pl-6 p-3">28 december 2022<br>
       <span>Colab block-2</span></p>
       <router-link to="/events" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>
@@ -133,11 +135,11 @@
   </div>
 </div>
 
-<div class="p-30 rounded-lg" style="background-image:url('https://images.pexels.com/photos/3738673/pexels-photo-3738673.jpeg?auto=compress&cs=tinysrgb&h=350'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+<div class="p-30 rounded-lg" style="background-image:url('https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2428&q=80'); background-position: center; background-repeat: no-repeat; background-size: cover;">
   <div class="h-full w-full">
     <div class="rounded-lg flex flex-col w-full pt-40 bg-gradient-to-t from-grayscale-black text-grayscale-white">
-      <h3 class="font-bold text-3xl pl-6">Systeembeheer</h3>
-      <p class="font-normal text-xl pl-6 p-3">28 december 2021<br>
+      <h3 class="font-bold text-3xl pl-6">Programmeren</h3>
+      <p class="font-normal text-xl pl-6 p-3">27 januari 2022<br>
       <span>Colab block-2</span></p>
       <router-link to="/events" class="link">
       <button class="bg-brandprimary-purple hover:bg-brandprimary-lightpurple transition duration-300 ease-out hover:ease-in w-full p-3 rounded-b-lg text-grayscale-white text-right pr-10">Meer info</button>

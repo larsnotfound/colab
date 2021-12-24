@@ -1,6 +1,6 @@
 <template>
   <nav class="shadow-sm pt-5 pb-5 relative flex flex-wrap items-center justify-between px-2 py-3">
-    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <div class="container px-4 mx-auto flex flex-wrap items-baseline justify-between">
       <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
         
         <a href="/">
@@ -13,7 +13,7 @@
         </button>
 
       </div>
-      <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
+      <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center transition duration-500 ease-in-out">
         <ul class="flex flex-col lg:flex-row list-none ml-auto">
           <li class="nav-item relative">
                 <router-link to="/about" class="block md:inline-block px-5 py-3 mt-10 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">About</router-link>

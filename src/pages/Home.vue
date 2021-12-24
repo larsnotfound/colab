@@ -9,8 +9,8 @@
 
 <!-- Hero section -->
 
-<main class="h-full flex items-center md:p-20">
-  <section class="p-10 mb-20">
+<main class="h-full flex items-center p-10 md:p-20">
+  <section class="mb-20">
     <div class="flex order-2">
       <div class="">
         <h3 class="text-6xl md:text-7xl font-bold text-left text-grayscale-darkestgray dark:text-grayscale-white pt-20">Houdt <span class="font-extrabold text-brandprimary-purple">IT-talent</span> in de regio voor ontwikkeling van Drenthe.</h3>

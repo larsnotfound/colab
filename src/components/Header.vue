@@ -8,13 +8,13 @@
         </a>
         
         <button class="text-white cursor-pointer text-xl leading-none px-3 py-1  border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-grayscale-darkestgray dark:stroke-grayscale-white" fill="none" viewBox="0 0 24 24" stroke="Currentcolor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
         </button>
 
       </div>
-      <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center transition duration-500 ease-in-out">
-        <ul class="flex flex-col lg:flex-row list-none ml-auto">
+      <div v-bind:class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center ease-in-out">
+        <ul class="flex flex-col lg:flex-row list-none ml-auto transition-all">
           <li class="nav-item relative">
                 <router-link to="/about" class="block md:inline-block px-5 py-3 mt-10 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">About</router-link>
                 <router-link to="/spaces" class="block md:inline-block px-5 py-3 no-underline font-medium text-grey-darkest dark:text-white hover:text-blue-200 dark:text-grayscale-white">Spaces</router-link>
@@ -27,6 +27,13 @@
     </div>
   </nav>
 </template>
+
+<style>
+.router-link-active {
+  border-bottom: 2px solid #8B1AF9;
+    }
+
+</style>
 
 <script>
 export default {

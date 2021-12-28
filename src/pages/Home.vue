@@ -2,7 +2,7 @@
   
   <!-- Body -->
   
-      <div class="" style="background-image:url('https://svgshare.com/i/d1Y.svg'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+      <div class="bg-image-one dark:bg-image-two h-screen w-screen bg-cover">
     <div class="w-full bg-grayscale-lightgray dark:bg-brandprimary-lightblue z-0">
       </div>
   <div class="max-w-7xl mx-auto z-1">

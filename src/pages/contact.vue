@@ -1,46 +1,49 @@
 <template>
-    <form class="w-full max-w-lg m-auto">
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-        First Name
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
-      <p class="text-red-500 text-xs italic">Please fill out this field.</p>
-    </div>
-    <div class="w-full md:w-1/2 px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-        Last Name
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
-    </div>
-  </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        E-mail
-      </label>
-      <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email">
-      <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>
-    </div>
-  </div>
-  <div class="flex flex-wrap -mx-3 mb-6">
-    <div class="w-full px-3">
-      <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-        Message
-      </label>
-      <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message"></textarea>
-      <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p>
-    </div>
-  </div>
-  <div class="md:flex md:items-center">
-    <div class="md:w-1/3">
-      <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-        Send
-      </button>
-    </div>
-    <div class="md:w-2/3"></div>
-  </div>
-</form>
-</template>
+  <div class="w-full bg-brandprimary-purple dark:bg-brandprimary-lightblue">
     
+    <div class="md:p-40 p-10 block max-w-7xl mx-auto z-1">
+        <p class="mt-7 pb-2 text-left text-grayscale-white dark:text-grayscale-lightgray font-bold text-xl md:text-xl leading-snug tracking-wider">Contact</p>
+        <h3 class="text-6xl md:text-7xl leading-snug text-left text-grayscale-white font-normal">Contact met <span class="font-bold text-grayscale-white">Colab?</span></h3>
+        <div class="items-center justify-center mt-4 lg:flex lg:gap-2"></div>
+      </div>
+  </div>
+
+<div class="max-w-7xl mx-auto z-1">
+ <div class="-p-10 md:-mt-20 -mt-7 m-5">
+            <div class="w-full flex items-center justify-center">
+                <div class="mb-20 bg-grayscale-white shadow rounded lg:px-28 px-8">
+                    <div class="md:flex items-center mt-12">
+                        <div class="md:w-72 flex flex-col">
+                            <label class="text-base leading-none text-gray-800">Naam</label>
+                            <input tabindex="0" arial-label="Voor + achternaam" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Please input  name" />
+                        </div>
+                        <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
+                            <label class="text-base leading-none text-gray-800">Mail</label>
+                            <input tabindex="0" arial-label="Hierop kunnen we je mailen" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Please input email address" />
+                            
+                        </div>
+                    </div>
+                    <div class="md:flex items-center mt-8">
+                        <div class="md:w-72 flex flex-col">
+                            <label class="text-base leading-none text-gray-800">Bedrijf (Optioneel)</label>
+                            <input tabindex="0" role="input" arial-label="Please input company name" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Please input company name" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="w-full flex flex-col mt-8">
+                            <label class="text-base leading-none text-gray-800">Bericht</label>
+                            <textarea tabindex="0" aria-label="Hoi" role="textbox" type="name" class="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100 resize-none"></textarea>
+                        </div>
+                    </div>
+                    <p class="text-xs leading-3 text-gray-600 mt-4">By clicking submit you agree to our terms of service, privacy policy and how we use data as stated</p>
+                    <div class="flex items-center justify-center w-full">
+                      <button class="w-full mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple dark:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Verstuur</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+</div>
+
+</template>

@@ -2,7 +2,7 @@
   
   <!-- Body -->
   
-      <div class="bg-image-one dark:bg-image-two h-screen w-screen bg-cover">
+      <div class="bg-image-one dark:bg-image-two h-max w-screen bg-cover">
     <div class="w-full bg-grayscale-lightgray dark:bg-brandprimary-lightblue z-0">
       </div>
   <div class="max-w-7xl mx-auto z-1">

@@ -37,13 +37,16 @@
                     </div>
                     <p class="text-xs leading-3 text-gray-600 mt-4">By clicking submit you agree to our terms of service, privacy policy and how we use data as stated</p>
                     <div class="flex items-center justify-center w-full">
-                      <button class="w-full mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple dark:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0">Verstuur</button>
+                      <button class="w-full mt-6 py-3 px-10 rounded-lg hover:bg-grayscale-white hover:text-brandprimary-purple font-bold border hover:border-brandprimary-purple dark:border-brandprimary-purple  bg-brandprimary-purple text-grayscale-white border-transparent transition ease-in duration-200 transform hover:-translate-y-1 active:translate-y-0 m-10">Verstuur</button>
                     </div>
                 </div>
             </div>
+
+
+            <div class="p-0 sm:p-20">
+        <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/larsnotfound/cky8hnv2ycu1214o61tfrq7ch.html?title=false&access_token=pk.eyJ1IjoibGFyc25vdGZvdW5kIiwiYSI6ImNreThobG40ZTFnMTgyb29uMXdweHU5dGcifQ.pzfI8bQmW9BeRFwZz1hP6A&zoomwheel=false#13.55/52.72105/6.47488" title="Basic" style="border:none;"></iframe>                        </div>
         </div>
-
-
 </div>
+
 
 </template>

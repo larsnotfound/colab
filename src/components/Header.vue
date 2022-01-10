@@ -46,7 +46,9 @@ export default {
   methods: {
     toggleNavbar: function(){
       this.showMenu = !this.showMenu;
-    }
+    },
+    
+    
   }
 }
 </script>

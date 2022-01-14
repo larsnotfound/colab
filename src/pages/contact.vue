@@ -15,18 +15,18 @@
                     <div class="md:flex items-center mt-12">
                         <div class="md:w-72 flex flex-col">
                             <label class="text-base leading-none text-gray-800">Naam</label>
-                            <input tabindex="0" arial-label="Voor + achternaam" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Please input  name" />
+                            <input tabindex="0" arial-label="Voor + achternaam" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Voor- en achternaam" />
                         </div>
                         <div class="md:w-72 flex flex-col md:ml-6 md:mt-0 mt-4">
                             <label class="text-base leading-none text-gray-800">Mail</label>
-                            <input tabindex="0" arial-label="Hierop kunnen we je mailen" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Please input email address" />
+                            <input tabindex="0" arial-label="Hierop kunnen we je mailen" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Mailadres" />
                             
                         </div>
                     </div>
                     <div class="md:flex items-center mt-8">
                         <div class="md:w-72 flex flex-col">
                             <label class="text-base leading-none text-gray-800">Bedrijf (Optioneel)</label>
-                            <input tabindex="0" role="input" arial-label="Please input company name" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Please input company name" />
+                            <input tabindex="0" role="input" arial-label="Please input company name" type="name" class="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-brandprimary-purple mt-4 bg-gray-100 border rounded border-grayscale-gray placeholder-gray-100" placeholder="Bedrijfsnaam" />
                         </div>
                     </div>
                     <div>

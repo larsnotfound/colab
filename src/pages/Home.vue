@@ -28,7 +28,6 @@
 <!-- About -->
 
  <div class="max-w-6xl mx-auto">
-
 <div class="mt-40 mb-40 grid md:grid-cols-2 gap-20 p-10">
     <div class="self-center">
       <div class="text-4xl font-black dark:text-grayscale-white">Werkruimtes, speciaal voor jou.</div>
@@ -45,7 +44,9 @@
 
 <!-- Tegels -->
 
-<h3 class="text-4xl font-black text-left pl-10 text-grayscale-darkestgray dark:text-grayscale-white">Community</h3>
+
+   <h3 class="text-4xl font-black text-left pl-10 text-grayscale-darkestgray dark:text-grayscale-white">Community</h3>
+
 
 <div class="grid md:grid-cols-2 gap-6 mb-40 sm:grid-cols-1 p-10">
 
